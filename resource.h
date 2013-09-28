@@ -1,0 +1,120 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by CIFC97IFC67.rc
+//
+#define IDM_ABOUTBOX                    0x0010
+#define IDD_IFC97IFC67_DIALOG           102
+#define IDR_MAINFRAME                   128
+#define IDR_MENU1                       130
+#define IDD_ABOUTBOX                    131
+#define IDD_RESULT                      132
+#define IDR_MENUXIEHUI                  133
+#define IDR_MENUBACK                    134
+#define IDD_DIALOG1                     135
+#define IDR_TOOLBAR1                    136
+#define IDC_RADIO5                      1014
+#define IDC_RADIO_97                    1014
+#define IDC_RADIO6                      1015
+#define IDC_RADIO_67                    1015
+#define IDC_CHECK12                     1017
+#define IDC_CHP                         1017
+#define IDC_CHECK13                     1018
+#define IDC_CHT                         1018
+#define IDC_CHECK14                     1019
+#define IDC_CHH                         1019
+#define IDC_CHECK15                     1020
+#define IDC_CHS                         1020
+#define IDC_CHECK16                     1021
+#define IDC_CHV                         1021
+#define IDC_CHECK17                     1022
+#define IDC_CHX                         1022
+#define IDC_EDIT1                       1023
+#define IDC_EdP                         1023
+#define IDC_OUT_List_Link               1023
+#define IDC_EDIT2                       1024
+#define IDC_EdT                         1024
+#define IDC_EDIT3                       1025
+#define IDC_EdH                         1025
+#define IDC_EDIT4                       1026
+#define IDC_EdS                         1026
+#define IDC_EDIT5                       1027
+#define IDC_EdV                         1027
+#define IDC_EDIT6                       1028
+#define IDC_EdX                         1028
+#define IDC_BUTTON1                     1029
+#define IDC_Compute                     1029
+#define IDC_BUTTON2                     1030
+#define IDC_ClearResult                 1030
+#define IDC_DISPLAY                     1030
+#define IDC_BUTTON3                     1031
+#define IDC_BUTTON_HELP                 1031
+#define IDC_BUTTON4                     1032
+#define IDC_EXIT                        1032
+#define IDC_EDIT7                       1033
+#define IDC_OUT_List                    1033
+#define IDC_RADIO1                      1035
+#define IDC_RADIO2                      1036
+#define IDC_BACK                        1037
+#define IDR_MENU2                       32771
+#define IDR_MENU3                       32772
+#define ID_MENUITEM32774                32774
+#define ID_MENU4                        32774
+#define IDR_MENU4                       32774
+#define IDR_MENU5                       32775
+#define ID_xiehui                       32776
+#define ID_MENUITEM32777                32777
+#define IDS_MENUITEM32778               32779
+#define ID_MENUddddd                    32780
+#define IDR_DISPLAY                     32783
+#define IDD_XIEHUI                      32784
+#define IDR_ABOUT                       32785
+#define IDR_BUTTON_HELP                 32787
+#define IDR_BACK                        32788
+#define IDS_MENUITEM32789               32790
+#define IDR_BACKWND                     32791
+#define IDS_MENUITEM32793               32794
+#define IDR_SYS                         32796
+#define IDS_MENUITEM32797               32798
+#define IDR_BUTTON_HELP1                32799
+#define IDR_ABOUT1                      32800
+#define IDS_MENUITEM32801               32802
+#define IDS_MENUITEM32803               32804
+#define IDS_ABOUTBOX                    32805
+#define ID_BUTTON32805                  32805
+#define ID_BUTTON32806                  32806
+#define IDS_PRESSURE                    32830
+#define IDS_TEMPERATURE                 32831
+#define IDS_SPECIFIC_ENTHALPY           32832
+#define IDS_SPECIFIC_ENTROPY            32833
+#define IDS_SPECIFIC_VOLUME             32834
+#define IDS_SPECIFIC_ISOBAR_HEAT_CAPACITY 32835
+#define IDS_SPECIFIC_ISOCHORIC_HEAT_CAPACITY 32836
+#define IDS_SPECIFIC_INTERNAL_ENERGY    32837
+#define IDS_SPEED_OF_SOUND              32838
+#define IDS_ISENTROPIC_EXPONENT         32840
+#define IDS_DYNAMIC_VISCOSITY           32841
+#define IDS_KINEMATIC_VISCOSITY         32842
+#define IDS_THERMAL_CONDUCTIVITY        32843
+#define IDS_PRANDTL_CONSTANT            32844
+#define IDS_DIELECTRIC_CONSTANT         32845
+#define IDS_WAVELENGTH                  32846
+#define IDS_SURFACE_TENSION             32847
+#define IDS_DRYNESS_FRACTION            32848
+#define IDS_PARAMETER_SLOP_OVER         32849
+#define IDS_SATURATION_VAPOUR_PARAMETER 32850
+#define IDS_METASTABLE_STEAM_PARAMETER  32851
+#define IDS_DRYNESS_INCERTITUDE         32852
+#define IDS_WATER_SATURATION_PARAMETER  32853
+#define IDS_REFRACTIVE_INDEX            32854
+#define IDS_NEWLINE                     32855
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        138
+#define _APS_NEXT_COMMAND_VALUE         32807
+#define _APS_NEXT_CONTROL_VALUE         1038
+#define _APS_NEXT_SYMED_VALUE           1039
+#endif
+#endif

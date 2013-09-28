@@ -1,0 +1,379 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\cIFC97IFC67.rc2""  // non-Microsoft eMbedded Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""wceres.rc""         // WCE-specific components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CIFC97IFC67.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IFC97IFC67_DIALOG DIALOG DISCARDABLE  0, 0, 243, 222
+STYLE WS_CHILD | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "水蒸汽性质计算"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "压力 p=",IDC_CHP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    3,1,43,10
+    CONTROL         "温度 T=",IDC_CHT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    3,15,43,10
+    CONTROL         "比焓 H=",IDC_CHH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    3,28,43,10
+    CONTROL         "比熵S=",IDC_CHS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,
+                    42,43,10
+    CONTROL         "比容V=",IDC_CHV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,
+                    55,43,10
+    CONTROL         "干度X=",IDC_CHX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,
+                    68,43,10
+    EDITTEXT        IDC_EdP,46,0,49,12,ES_MULTILINE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EdT,46,13,49,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EdH,46,26,49,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EdS,46,40,49,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EdV,46,53,49,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EdX,46,66,49,12,ES_AUTOHSCROLL
+    LTEXT           "kJ/(kg.℃)",IDC_STATIC,95,44,41,8
+    LTEXT           "m^3/kg",IDC_STATIC,95,57,40,8
+    LTEXT           "100%",IDC_STATIC,95,70,34,8
+    LTEXT           "MPa",IDC_STATIC,95,3,34,8
+    LTEXT           "℃",IDC_STATIC,95,17,37,8
+    LTEXT           "kJ/kg",IDC_STATIC,95,30,49,8
+    DEFPUSHBUTTON   "计算",IDC_Compute,26,80,41,11
+    EDITTEXT        IDC_OUT_List,117,135,6,12,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    NOT WS_VISIBLE | WS_VSCROLL
+END
+
+IDD_RESULT DIALOG DISCARDABLE  0, 0, 187, 196
+STYLE WS_CHILD | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "计算结果"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_OUT_List_Link,0,0,119,129,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 232, 87
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,13,13,20,20
+    LTEXT           "水和蒸气性质计算7.0版本 \n for Windows Mobile",
+                    IDC_STATIC,53,2,105,20
+    LTEXT           "版权所有 (C) 2000-2010 \n长沙优易软件开发有限公司",
+                    IDC_STATIC,53,27,105,20
+    LTEXT           "http://www.uesoft.com",IDC_STATIC,54,52,105,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_IFC97IFC67_DIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 3
+        VERTGUIDE, 13
+        VERTGUIDE, 46
+        VERTGUIDE, 95
+        VERTGUIDE, 140
+        HORZGUIDE, 12
+        HORZGUIDE, 21
+        HORZGUIDE, 38
+        HORZGUIDE, 52
+        HORZGUIDE, 65
+        HORZGUIDE, 135
+        HORZGUIDE, 150
+    END
+
+    IDD_RESULT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 180
+        VERTGUIDE, 134
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 217
+        VERTGUIDE, 50
+        VERTGUIDE, 159
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "公式"
+    BEGIN
+        MENUITEM "IAPWS-IF97",                  IDR_MENU2
+        MENUITEM "IFC67",                       IDR_MENU3
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "帮助",                        IDR_BUTTON_HELP
+        MENUITEM "关于",                        IDR_ABOUT
+    END
+END
+
+IDR_MENUBACK MENU DISCARDABLE 
+BEGIN
+    POPUP "返回"
+    BEGIN
+        MENUITEM "输入窗口",                    IDR_BACKWND
+    END
+    POPUP ""
+    BEGIN
+        MENUITEM "",                            IDR_BACKWND
+        MENUITEM "帮助",                        IDR_BUTTON_HELP1
+        MENUITEM "关于",                        IDR_ABOUT1
+    END
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704B0"
+        BEGIN
+            VALUE "CompanyName", " \0"
+            VALUE "FileDescription", "WCE MFC-Anwendung IFC97IFC67\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "IFC97IFC67\0"
+            VALUE "LegalCopyright", "Copyright ?2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "IFC97IFC67.exe\0"
+            VALUE "ProductName", "Anwendung IFC97IFC67\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENUITEM32778       "xxxxjjjjjjjjjj"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENUITEM32789       "返回"
+    IDS_MENUITEM32793       "系统"
+    IDS_MENUITEM32797       "b"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENUITEM32801       "返回"
+    IDS_ABOUTBOX            "关于 水和水蒸汽性质计算(&A)..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PRESSURE            "压力 %7sP    =%16.12f  MPa\r\n"
+    IDS_TEMPERATURE         "温度 %7sT    =%16.12f ℃\r\n"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SPECIFIC_ENTHALPY   "比焓 %7sH    = %16.12f kJ/kg\r\n"
+    IDS_SPECIFIC_ENTROPY    "比熵 %7sS    = %16.12f kJ/(kg.℃)\r\n"
+    IDS_SPECIFIC_VOLUME     "比容 %7sV    = %16.12f m^3/kg\r\n"
+    IDS_SPECIFIC_ISOBAR_HEAT_CAPACITY 
+                            "定压比热%4sCP   = %16.12f kJ/(kg.℃)\r\n"
+    IDS_SPECIFIC_ISOCHORIC_HEAT_CAPACITY 
+                            "定容比热%4sCV  = %16.12f  kJ/(kg.℃)\r\n"
+    IDS_SPECIFIC_INTERNAL_ENERGY "内能 %7sE    = %16.12f kJ/kg\r\n"
+    IDS_SPEED_OF_SOUND      "声速 %7sSSP  = %16.12f m/s\r\n"
+    IDS_ISENTROPIC_EXPONENT "定熵指数%sKS  = %16.12f \r\n"
+    IDS_DYNAMIC_VISCOSITY   "动力粘度%sETA  = %e kg/(m.s)\r\n"
+    IDS_KINEMATIC_VISCOSITY "运动粘度%sU   = %e ㎡/s\r\n"
+    IDS_THERMAL_CONDUCTIVITY "导热系数%sRAMD= %e W/(m.℃)\r\n"
+    IDS_PRANDTL_CONSTANT    "普朗特数%sPRN = %16.12f \r\n"
+    IDS_DIELECTRIC_CONSTANT "介电常数%sEPS = %16.12f \r\n"
+    IDS_WAVELENGTH          "当给定波长为:%8.4f μm时\r\n"
+    IDS_SURFACE_TENSION     "表面张力%sSURFT= %16.12f \r\n\r\n"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DRYNESS_FRACTION    "干度 %7sX    = %16.12f \r\n"
+    IDS_PARAMETER_SLOP_OVER "参数越界!"
+    IDS_SATURATION_VAPOUR_PARAMETER "饱和汽参数:\r\n"
+    IDS_METASTABLE_STEAM_PARAMETER "对应亚稳态蒸汽参数:\r\n"
+    IDS_DRYNESS_INCERTITUDE "干度        =不确定!\r\n\r\n"
+    IDS_WATER_SATURATION_PARAMETER "饱和水参数:\r\n"
+    IDS_REFRACTIVE_INDEX    "折射率  %sN    = %16.12f \r\n"
+    IDS_NEWLINE             "\r\n\r\n"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENUITEM32778       "xxxxjjjjjjjjjj"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENUITEM32789       "E&xit"
+    IDS_MENUITEM32793       "&System"
+    IDS_MENUITEM32797       "b"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENUITEM32801       "Exit"
+    IDS_ABOUTBOX            "About Water and Steam Property(&A)..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\cIFC97IFC67.rc2"  // non-Microsoft eMbedded Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+//#include "wceres.rc"         // WCE-specific components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
